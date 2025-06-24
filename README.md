@@ -52,3 +52,17 @@ While this project uses the Telco dataset as a teaching example, real-world chur
 
 These features help streaming companies personalize retention strategies, surface better content, and detect early signs of disengagement.
 
+
+## 💡 Real-World Complexity Beyond This Example
+
+This project uses a simplified Telco dataset to demonstrate churn modeling with XGBoost and SHAP.
+
+In production settings (like Netflix), churn prediction involves:
+- Session-level data with behavioral signals
+- Subscription metadata, billing anomalies, plan changes
+- Customer support transcripts (NLP)
+- Sequential data modeling (e.g., session trends over time)
+- Explainability + fairness monitoring in deployment
+
+Future versions of this project will incorporate synthetic datasets and real-time modeling pipelines to simulate production-grade churn systems.
+
